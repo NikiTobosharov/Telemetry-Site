@@ -1,0 +1,99 @@
+/*Styling
+
+Six-part-svg-images:
+First - https://betterstack.com/assets/v2/logs/chip-4763a10ae6fe40bc6f6de59f517ebe6274f7ae02fbc54bd30cba7256c73a4891.svg#root
+Second - https://betterstack.com/assets/v2/logs/shield-0663408cd06804303452721f0f0c761a557cef4fe21fc1b48769c5edd7604545.svg#root
+Third - https://betterstack.com/assets/v2/logs/annotation-d239eff8c14d0cf4f094db5a64b7f8855e97891304ad39dd51138e0b35350023.svg#root
+
+First flex box container background color: rgb(11 12 20 / var(--tw-bg-opacity))
+
+six-part-loading-line-colors:
+rgb(11 12 20 / var(--tw-bg-opacity))
+inside: linear-gradient(92.69deg, #939DB8 -84.1%, #3B4154 107.01%);
+
+Better stack img: https://betterstack.com/assets/v2/logo-mark-4dd4f78c6635f798530e82d0043efcebe5ca4787d40dcd846ca5cfe6bf7d0442.svg#root
+Better Stack Background: linear-gradient(0deg, #98A4F7 -3.5%, #DADFFC 125%)
+
+Background colors:
+rgb(11 12 20)
+rgb(35, 38, 92)
+rgb(49, 53, 121)
+rgb(68, 73, 169)
+rgb(91, 99, 211)
+rgb(124, 135,247)
+
+Other colors:
+rgb(183, 16, 229)
+rgb(104, 51, 255)
+rgb(80, 86, 237)
+rgb(0,130, 217)
+
+Primary:
+rgb(147 157 184)
+rgb(59 66 84)
+#5468ff
+#1c1e21
+#fff
+#444950
+rgb(187, 198, 226)
+rgb(122, 123, 127)
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: 0 1px 3px 0 #d4d9e1;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: rgb(187, 198, 226);
+  overflow-x: hidden;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--five-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
