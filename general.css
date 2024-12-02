@@ -75,7 +75,6 @@ strong {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
 }
 
 .grid:not(:last-child) {
@@ -96,4 +95,16 @@ strong {
 
 .grid--five-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #f0f0f0;
+}
+
+.heading-secondary {
+  font-size: 5.6rem;
+  line-height: 100%;
 }
