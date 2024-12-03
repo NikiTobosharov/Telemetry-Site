@@ -46,7 +46,11 @@ rgb(122, 123, 127)
 }
 
 *:focus {
-  box-shadow: 0 1px 3px 0 #d4d9e1;
+  box-shadow: 0 2px 3px 0 #535fbb;
+  outline: none;
+  border: 2px solid #5468ff;
+  padding: auto;
+  border-radius: 9px;
 }
 
 html {

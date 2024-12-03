@@ -451,3 +451,85 @@
 .explore-flex:hover .new-icon {
   display: inline-block;
 }
+
+.resolve-section {
+  background-color: rgb(11 12 20);
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+.resolve,
+.resolve-number,
+.resolve-heading,
+.resolve-text {
+  align-items: center;
+}
+
+.resolve-text {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.resolve-first-box-image {
+  position: relative;
+  z-index: 1;
+}
+
+.resolve-absolite-image {
+  position: absolute;
+  right: 4.5rem;
+  top: 6.2rem;
+  border-radius: 11px;
+  width: 18rem;
+  height: 18rem;
+}
+
+.resolve-box-heading {
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.resolve-box-info {
+  padding: 3rem 7rem 3rem 4rem;
+}
+
+.third-heading {
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.container-flex {
+  max-width: 85rem;
+  margin-inline: auto;
+}
+
+.resolve-flex {
+  margin-top: 8rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.resolve-flex-img {
+  filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(200deg)
+    brightness(90%) contrast(100%);
+  border-bottom: 1px solid #7d8cfd;
+  padding-bottom: 2rem;
+}
+
+.flex-heading {
+  margin-top: 2.6rem;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  display: flex;
+}
+
+.border-container {
+  border-bottom: 1px solid #7d8cfd3d;
+}
