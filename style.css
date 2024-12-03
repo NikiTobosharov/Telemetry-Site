@@ -605,5 +605,37 @@
 }
 
 .right-pricing {
-  width: 38rem;
+  flex-grow: 1;
+  justify-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.right-pricing-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.right-pricing-border {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(114 125 161 / 0.15);
+}
+
+.datalog-flex {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.right-part-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.right-part-header {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
 }
