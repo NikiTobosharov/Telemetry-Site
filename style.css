@@ -344,8 +344,7 @@
   border-top: 1px solid rgb(114 125 161 / 0.15);
   display: flex;
   flex-direction: column;
-  padding-left: 6.4rem;
-  padding-right: 6.4rem;
+  padding-top: 6.4rem;
   gap: 2rem 0;
   margin-bottom: 11rem;
   position: relative;
@@ -358,9 +357,10 @@
 .background-img {
   position: absolute;
   z-index: -1;
-  width: 100%;
-  bottom: -15rem;
-  left: 11rem;
+  width: 137%;
+  bottom: -11rem;
+  left: -22rem;
+  height: 122%;
 }
 
 .troubleshoot-number,
@@ -374,4 +374,39 @@
 .troubleshoot-box {
   position: relative;
   z-index: 1;
+}
+
+.forth-part {
+  grid-column: 1 / -1;
+  width: 96rem;
+  height: 30rem;
+  justify-self: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.explore-flex {
+  display: flex;
+  margin-top: 3rem;
+  color: #7d8cfd;
+  font-size: 1.6rem;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.explore-ion-icon {
+  font-size: 1.4rem;
+  align-self: flex-end;
+}
+
+.new-icon {
+  display: none;
+}
+
+.forth-part:hover .explore-ion-icon {
+  display: none;
+}
+
+.forth-part:hover .new-icon {
+  display: inline-block;
 }
