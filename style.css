@@ -533,3 +533,13 @@
 .border-container {
   border-bottom: 1px solid #7d8cfd3d;
 }
+
+.flex-text-container {
+  align-items: start;
+  padding: 2rem 4rem 0rem 0rem;
+}
+
+.flex-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
