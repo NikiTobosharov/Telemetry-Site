@@ -410,3 +410,44 @@
 .forth-part:hover .new-icon {
   display: inline-block;
 }
+
+.final-box {
+  grid-column: 1 / -1;
+  width: 96rem;
+  height: 30rem;
+  justify-self: center;
+  display: flex;
+  border-right: none;
+  border-left: none;
+  border-radius: 0%;
+  height: 40rem;
+  margin-top: 8rem;
+}
+
+.border-none {
+  border-radius: 0%;
+  padding: 0;
+}
+
+.box-text-final {
+  background-color: rgb(11 12 20);
+  padding: 10rem 4rem;
+}
+
+.heading-final {
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+
+.integration-link {
+  text-decoration: none;
+  color: #7d8cfd;
+}
+
+.explore-flex:hover .explore-ion-icon {
+  display: none;
+}
+
+.explore-flex:hover .new-icon {
+  display: inline-block;
+}
