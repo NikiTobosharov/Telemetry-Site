@@ -452,6 +452,8 @@
   display: inline-block;
 }
 
+/*Resolve Section*/
+
 .resolve-section {
   background-color: rgb(11 12 20);
   padding: 9.6rem 0 9.6rem 0;
@@ -542,4 +544,66 @@
 .flex-text {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+/*Pricing Section*/
+
+.pricing-section {
+  background-color: rgb(11 12 20);
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+.pricing-container {
+  max-width: 90rem;
+  margin-inline: auto;
+}
+
+.pricing-box-flex {
+  display: flex;
+  width: 90rem;
+  height: 60rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(114 125 161 / 0.15);
+  border-radius: 20px;
+  background-color: rgb(114 125 161 / 0.1);
+}
+
+.pricing-heading {
+  text-align: start;
+}
+
+.pricing-text {
+  font-size: 1.6rem;
+  text-align: start;
+  padding: 2rem 4rem 0rem 0;
+}
+
+.pricing-footer-text {
+  border-top: 2px solid rgb(114 125 161 / 0.15);
+  font-size: 1.1rem;
+  justify-self: end;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.left-pricing {
+  display: flex;
+  flex-direction: column;
+  width: 43rem;
+  background: linear-gradient(to right, rgb(114 125 161 / 0.1), rgb(11 12 20));
+  border-radius: 11px;
+  justify-content: space-between;
+  padding: 5rem 3rem 2rem 4rem;
+}
+
+.left-pricing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  flex-grow: 1;
+}
+
+.right-pricing {
+  width: 38rem;
 }
