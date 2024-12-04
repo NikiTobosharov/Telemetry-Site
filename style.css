@@ -557,6 +557,7 @@
 .pricing-container {
   max-width: 90rem;
   margin-inline: auto;
+  border-bottom: 1px solid rgb(114 125 161 / 0.15);
 }
 
 .pricing-box-flex {
@@ -755,4 +756,28 @@
   margin-top: 1.2rem;
   color: #000;
   letter-spacing: 0.05rem;
+}
+
+/*Register Section*/
+.register-section {
+  background-color: rgb(11 12 20);
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+.better-stack-final-logo {
+  width: 15%;
+}
+
+.final-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.final-text {
+  font-size: 1.6rem;
+}
+
+.final-header {
+  margin-bottom: 2rem;
 }
