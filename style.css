@@ -761,7 +761,7 @@
 /*Register Section*/
 .register-section {
   background-color: rgb(11 12 20);
-  padding: 9.6rem 0 9.6rem 0;
+  padding: 9.6rem 0 16.6rem 0;
 }
 
 .better-stack-final-logo {
@@ -780,4 +780,20 @@
 
 .final-header {
   margin-bottom: 2rem;
+}
+
+/*Footer*/
+.footer {
+  background-color: rgb(11 12 20);
+  padding: 9.6rem 0 9.6rem 0;
+  border-top: 1px solid rgb(114 125 161 / 0.15);
+}
+
+.grid-container {
+  max-width: 110rem !important;
+}
+
+.footer-grid {
+  grid-template-columns: 2fr 2fr !important;
+  gap: 6rem;
 }
