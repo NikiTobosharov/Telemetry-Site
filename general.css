@@ -112,3 +112,8 @@ strong {
   font-size: 5.6rem;
   line-height: 100%;
 }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
