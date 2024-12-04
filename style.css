@@ -179,6 +179,7 @@
   color: rgba(180, 187, 222, 0.725);
   line-height: 1.2rem;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .intro-footer-img {
@@ -566,6 +567,7 @@
   border: 1px solid rgb(114 125 161 / 0.15);
   border-radius: 20px;
   background-color: rgb(114 125 161 / 0.1);
+  margin-bottom: 8rem;
 }
 
 .pricing-heading {
@@ -605,13 +607,19 @@
 }
 
 .right-pricing {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   flex-grow: 1;
   justify-items: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .right-pricing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
   width: 100%;
   padding-left: 6rem;
   padding-right: 6rem;
@@ -684,10 +692,12 @@
 
 .better-stack-price {
   margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-top: auto;
+  align-self: center;
+  width: 85%;
   padding: 2rem;
-  background: linear-gradient(0deg, #98a4f7 -3.5%, #dadffc 125%);
+  background: linear-gradient(0deg, #dadffc -120%, #98a4f7 125%);
+  border-radius: 11px;
 }
 
 .better-stack-flex-container {
@@ -734,8 +744,15 @@
 }
 
 .rounded-five-percents {
-  background: black;
+  background: #000;
   width: 5.7%;
   height: 0.8rem;
   border-radius: 9999px;
+}
+
+.better-stack-price-text {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  color: #000;
+  letter-spacing: 0.05rem;
 }
