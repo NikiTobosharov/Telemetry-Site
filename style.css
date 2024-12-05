@@ -112,6 +112,7 @@
 }
 
 .subheading {
+  letter-spacing: 0.29em;
   color: rgb(160, 167, 239);
   font-size: 1.6rem;
   line-height: 1.6rem;
