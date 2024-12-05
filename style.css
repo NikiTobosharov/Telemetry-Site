@@ -782,10 +782,10 @@
   margin-bottom: 2rem;
 }
 
-/*Footer*/
+/*Footer Section*/
 .footer-section {
-  background-color: rgb(11 12 20);
-  padding: 6rem 0 9.6rem 0;
+  background-color: rgb(11 12 20 / 0.99);
+  padding: 2rem 0 9.6rem 0;
   border-top: 1px solid rgb(114 125 161 / 0.15);
   border-bottom: 1px solid rgb(114 125 161 / 0.15);
 }
@@ -832,4 +832,125 @@
   line-height: 1.3;
   text-decoration: none;
   color: rgba(187, 198, 226, 0.651);
+}
+
+/*Footer*/
+
+.footer {
+  background-color: rgb(11 12 20);
+  padding: 6rem 0 9.6rem 0;
+}
+
+.footer-container {
+  justify-self: center;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.contact-info {
+  gap: 1.5rem;
+  justify-content: flex-end;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.better-stack-footer-info {
+  max-width: 340px;
+}
+
+.footer-top-flex {
+  padding: 0rem 1.5rem 2rem 1.5rem;
+  gap: 14rem;
+  border-bottom: 1px solid rgb(114 125 161 / 0.15);
+}
+
+.final-logo {
+  width: 55%;
+}
+
+.better-stack-footer-text {
+  font-size: 1.4rem;
+  padding-left: 1.3rem;
+  line-height: 1.8;
+}
+
+.contact-phone-email {
+  gap: 3rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  align-items: end;
+  padding-bottom: 0.5rem;
+}
+
+.contact-number {
+  color: inherit;
+}
+
+.contact-email {
+  color: inherit;
+}
+
+.contact-social-networks {
+  flex-grow: 1;
+}
+
+.social-links {
+  flex-grow: 1;
+  gap: 1.6rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: rgba(180, 187, 222, 0.725);
+}
+
+.footer-bottom-flex {
+  padding-top: 1.8rem;
+  padding-left: 2.8rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+}
+
+.footer-bottom-left {
+  align-items: center;
+  gap: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.footer-bottom-a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.system-status {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.svg-img {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
+.footer {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }

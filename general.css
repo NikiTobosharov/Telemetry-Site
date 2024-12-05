@@ -113,6 +113,10 @@ strong {
   line-height: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
