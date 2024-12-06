@@ -85,7 +85,7 @@
 }
 
 .btn {
-  background-color: rgb(90, 103, 249);
+  background-color: rgba(108, 119, 243, 0.978);
   border: 3px solid rgb(121, 131, 238);
   color: #fff;
 }
@@ -359,9 +359,9 @@
 .background-img {
   position: absolute;
   z-index: -1;
-  width: 137%;
+  width: 125%;
   bottom: -11rem;
-  left: -22rem;
+  left: -15rem;
   height: 122%;
 }
 
@@ -394,23 +394,34 @@
   font-size: 1.6rem;
   align-items: center;
   column-gap: 0.4rem;
+  position: relative;
 }
 
 .explore-ion-icon {
   font-size: 1.4rem;
   align-self: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in;
+}
+
+.ion-icon-wrapper {
+  position: relative;
+  height: 1.4rem;
+  width: 1.4rem;
 }
 
 .new-icon {
-  display: none;
+  opacity: 0;
 }
 
 .forth-part:hover .explore-ion-icon {
-  display: none;
+  opacity: 0;
 }
 
 .forth-part:hover .new-icon {
-  display: inline-block;
+  opacity: 1;
 }
 
 .final-box {
@@ -447,11 +458,11 @@
 }
 
 .explore-flex:hover .explore-ion-icon {
-  display: none;
+  opacity: 0;
 }
 
 .explore-flex:hover .new-icon {
-  display: inline-block;
+  opacity: 1;
 }
 
 /*Resolve Section*/
