@@ -1,3 +1,112 @@
+@media (max-width: 73.25em) {
+  .resolve-heading {
+    font-size: 5rem;
+  }
+
+  .log-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 67em) {
+  .resolve-heading {
+    font-size: 4.6rem;
+  }
+  .contact-phone-email {
+    gap: 2rem;
+  }
+
+  .log-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 67em) {
+  .footer-top-flex {
+    gap: 6rem;
+  }
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+  .img-box-grid {
+    gap: 0.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.8rem;
+  }
+  .img-box {
+    width: 95%;
+  }
+  .heading-final {
+    font-size: 2.4rem;
+  }
+  .troubleshoot-secondary {
+    font-size: 5rem;
+  }
+  .log-heading {
+    font-size: 4.8rem;
+  }
+  .intro-section {
+    padding-top: 14rem;
+  }
+
+  .log-section,
+  .troubleshoot-section,
+  .resolve-section,
+  .pricing-section,
+  .register-section,
+  .footer-section {
+    padding: 7rem 0 7rem 0;
+  }
+  .better-stack-footer-info {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 63em) {
+  .left-nav {
+    gap: 2.4rem;
+  }
+  .main-nav {
+    gap: 2rem;
+  }
+  .contact-phone-email {
+    display: none;
+  }
+  .better-stack-footer-text {
+    display: none;
+  }
+  .footer-top-flex {
+    border-bottom: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    order: 2;
+  }
+
+  .footer-bottom-flex {
+    flex-direction: column;
+    gap: 0.5rem;
+    order: 1;
+  }
+  .footer-container {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+  }
+  .better-stack-footer-info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .contact-info {
+    order: 2;
+  }
+}
+
 @media (max-width: 50em) {
   .btn-mobile-nav {
     display: block;
