@@ -9,12 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
       rel="stylesheet"
     />
+
+    <script defer src="script.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
     <title>Telemetry (formerly Logtail)</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <div class="container nav">
         <div class="left-nav">
           <div class="nav-logo">
@@ -32,47 +36,49 @@
               >BetterStack</a
             >
           </div>
-          <ul class="main-nav">
-            <li>
-              <button class="nav-btn">
-                Platform <ion-icon name="chevron-down-outline"></ion-icon>
-              </button>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="nav-link"
-                href="https://betterstack.com/docs/logs/start/"
-                >Documentation</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="nav-link"
-                href="https://betterstack.com/pricing"
-                >Pricing</a
-              >
-            </li>
-            <li class="nav-list">
-              <button class="nav-btn">
-                Community <ion-icon name="chevron-down-outline"></ion-icon>
-              </button>
-            </li>
-            <li>
-              <button class="nav-btn">
-                Company <ion-icon name="chevron-down-outline"></ion-icon>
-              </button>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                class="nav-link"
-                href="https://betterstack.com/enterprise"
-                >Enterprise</a
-              >
-            </li>
-          </ul>
+          <nav class="main-nav-nav">
+            <ul class="main-nav">
+              <li>
+                <button class="nav-btn">
+                  Platform <ion-icon name="chevron-down-outline"></ion-icon>
+                </button>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="nav-link"
+                  href="https://betterstack.com/docs/logs/start/"
+                  >Documentation</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="nav-link"
+                  href="https://betterstack.com/pricing"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <button class="nav-btn">
+                  Community <ion-icon name="chevron-down-outline"></ion-icon>
+                </button>
+              </li>
+              <li>
+                <button class="nav-btn">
+                  Company <ion-icon name="chevron-down-outline"></ion-icon>
+                </button>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="nav-link"
+                  href="https://betterstack.com/enterprise"
+                  >Enterprise</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="right-nav">
           <ul class="sign-nav">
@@ -93,6 +99,10 @@
               >
             </li>
           </ul>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </div>
       </div>
     </header>
