@@ -367,4 +367,59 @@
 }
 
 @media (max-width: 45em) {
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 4rem;
+  }
+  .footer-right-col {
+    margin: 0;
+  }
+  .footer-left-col {
+    column-gap: 0;
+  }
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+  .intro-text {
+    max-width: 36rem;
+  }
+  .input {
+    width: 255px;
+  }
+  .submit {
+    width: 190px;
+  }
+  .pricing-box-flex {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .left-pricing {
+    width: 100%;
+  }
+  .pricing-container {
+    width: 80%;
+  }
+  .right-pricing-container {
+    margin-bottom: 2rem;
+  }
+  .container-flex {
+    max-width: 80%;
+  }
+  .resolve-absolite-image {
+    width: 50%;
+    height: 28%;
+  }
+  .resolve-box-heading {
+    line-height: 1.2;
+  }
+  .img-box {
+    height: 100%;
+  }
+  .resolve-heading {
+    font-size: 4.4rem;
+  }
+  .border-none {
+    width: 65%;
+  }
 }
