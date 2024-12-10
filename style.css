@@ -204,6 +204,8 @@
 }
 
 .intro-footer-img {
+  display: block;
+  justify-self: center;
   width: 90%;
   margin-bottom: 4rem;
 }

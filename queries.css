@@ -44,7 +44,7 @@
     font-size: 5rem;
   }
   .log-heading {
-    font-size: 4.8rem;
+    font-size: 5.8rem;
   }
   .intro-section {
     padding-top: 14rem;
@@ -90,7 +90,6 @@
   .footer-bottom-flex {
     flex-direction: column;
     gap: 0.5rem;
-    order: 1;
   }
   .footer-container {
     align-items: center;
@@ -100,10 +99,107 @@
   }
   .better-stack-footer-info {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
-  .contact-info {
-    order: 2;
+  .footer-bottom-left {
+    padding: 0.8rem 0;
+  }
+  .footer-bottom-right {
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 60.625em) {
+  .log-img {
+    width: 70rem;
+    top: -3rem;
+    right: -2rem;
+  }
+
+  .log-img-col {
+    width: 59rem;
+  }
+  .heading-primary {
+    font-size: 6rem;
+  }
+
+  .resolve-heading {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .third-heading {
+    font-size: 4.2rem;
+  }
+  .pricing-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 57em) {
+  .left-nav {
+    gap: 1.4rem;
+  }
+  .main-nav {
+    gap: 1.2rem;
+  }
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+  .troubleshoot-secondary {
+    font-size: 4.2rem;
+  }
+  .log-text {
+    font-size: 1.6rem;
+  }
+  .background-img {
+    width: 125%;
+    height: 110%;
+    bottom: -5rem;
+    left: -15rem;
+  }
+  .box-text-final {
+    padding: 8rem 2rem;
+  }
+  .pricing-box-flex {
+    justify-self: center;
+    width: 80rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .main-nav {
+    gap: 3.4rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+  }
+  .nav-btn {
+    font-size: 1.3rem;
+  }
+  .img-box-grid {
+    gap: 1.8rem;
+  }
+  .background-img {
+    width: 121%;
+    height: 100%;
+    bottom: 0rem;
+    left: -7rem;
+  }
+  .troubleshoot-header {
+    margin-bottom: 6rem;
+  }
+  .resolve-text {
+    margin-bottom: 3rem;
+  }
+  .container-flex {
+    max-width: 75rem;
+  }
+  .intro-section {
+    padding: 9.6rem 0 6rem 0;
+  }
+  .log-grid {
+    margin-bottom: 0rem !important;
   }
 }
 
@@ -167,4 +263,108 @@
   .sign-nav {
     margin-right: 1.4rem;
   }
+}
+
+@media (max-width: 50em) {
+  .subheading {
+    margin-top: 4rem;
+  }
+  .heading-primary {
+    padding: 0 6rem;
+  }
+  .intro-text {
+    font-size: 1.6rem;
+  }
+  .logs-metrics {
+    width: 110%;
+  }
+  .section-number {
+    margin-bottom: 2rem;
+  }
+  .log-heading {
+    font-size: 5.6rem;
+    margin-bottom: 1rem;
+  }
+  .log-text {
+    padding-right: 16rem;
+  }
+  .log-img-col {
+    width: 47%;
+  }
+  .log-img {
+    width: 64rem;
+    top: -5rem;
+    right: -31rem;
+  }
+  .log-text-col {
+    justify-content: start;
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+  .span-text {
+    font-size: 1.6rem;
+  }
+  .log-colored-text {
+    font-size: 3.4rem;
+  }
+  .log-trird-header-text {
+    font-size: 3.4rem;
+  }
+  .third-header {
+    height: 12rem;
+  }
+  .log-img-col {
+    height: 48rem;
+  }
+  .resolve-text {
+    padding: 2rem 0 !important;
+  }
+  .box-text-final {
+    padding: 2rem 2rem;
+  }
+  .heading-final {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .img-box-text {
+    font-size: 1.4rem;
+  }
+  .pricing-box-flex {
+    width: 70rem;
+  }
+  .pricing-heading {
+    text-align: start;
+    font-size: 3.6rem;
+  }
+  .register-section {
+    padding: 5rem 0 7rem 0;
+  }
+  .footer-left-col {
+    column-gap: 4rem;
+    row-gap: 4rem;
+  }
+  .footer-right-col {
+    margin-left: 1rem;
+  }
+  .grid:not(:last-child) {
+    margin-bottom: 0rem;
+  }
+
+  .a-header {
+    font-size: 1.4rem;
+  }
+  .a-text {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+  .third-media {
+    margin-top: 8rem;
+  }
+  .troubleshoot-heading-text {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 45em) {
 }
