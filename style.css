@@ -467,6 +467,8 @@
 .box-text-final {
   background-color: rgb(11 12 20);
   padding: 10rem 4rem;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
 .heading-final {

@@ -324,7 +324,7 @@
   }
   .heading-final {
     font-size: 1.8rem;
-    text-align: center;
+    text-align: start;
     line-height: 1.2;
   }
   .img-box-text {
@@ -407,8 +407,8 @@
     max-width: 80%;
   }
   .resolve-absolite-image {
-    width: 50%;
-    height: 28%;
+    width: 38%;
+    height: 27%;
   }
   .resolve-box-heading {
     line-height: 1.2;
@@ -421,5 +421,29 @@
   }
   .border-none {
     width: 65%;
+  }
+  .intro-footer-img {
+    width: 104%;
+  }
+  .img-box-grid {
+    grid-template-columns: 1fr;
+  }
+  .troubleshoot-box {
+    justify-self: center;
+    width: 80%;
+    height: auto;
+  }
+  .forth-part {
+    flex-direction: column;
+  }
+  .img-box {
+    width: 80%;
+    justify-self: center;
+  }
+  .resolve-first-box-image {
+    justify-self: center;
+  }
+  .img-box:first-child {
+    justify-self: center;
   }
 }
