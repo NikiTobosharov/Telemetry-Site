@@ -446,4 +446,130 @@
   .img-box:first-child {
     justify-self: center;
   }
+  .log-img {
+    width: 300%;
+    right: -27rem;
+  }
+  .background-img {
+    height: 85%;
+    bottom: 7rem;
+  }
+  .troubleshoot-header {
+    justify-content: space-between;
+  }
+  .log {
+    padding: 0 4.4rem;
+  }
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+  .log-text {
+    font-size: 1.4rem;
+  }
+  .intro-footer-img {
+    width: 90%;
+  }
+  .third-heading {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 38em) {
+  .subheading {
+    font-size: 1.4rem;
+  }
+  .heading-primary {
+    font-size: 3.8rem;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+  }
+  .input {
+    width: 200px;
+    height: 40px;
+  }
+  .submit {
+    width: 158px;
+    height: 40px;
+    text-align: center;
+    padding: 1rem;
+  }
+  .start-free-demo-text {
+    font-size: 1.2rem;
+  }
+  .intro-text {
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+  }
+  .intro-footer-text {
+    font-size: 1.2rem;
+  }
+  .intro-section {
+    padding: 6rem 0 4rem 0;
+  }
+  .log-section,
+  .troubleshoot-section,
+  .resolve-section,
+  .pricing-section,
+  .register-section,
+  .footer-section {
+    padding: 4rem 0 4rem 0;
+  }
+  .section-number {
+    line-height: 1.2;
+    font-size: 1.2rem;
+  }
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .log-text {
+    padding-right: 25rem;
+  }
+  .log-img {
+    width: 280%;
+    right: -19rem;
+  }
+  .log-text-col {
+    padding: 0;
+  }
+  .span-text {
+    font-size: 1.4rem;
+  }
+  .log-colored-text {
+    font-size: 2.8rem;
+  }
+  .log-trird-header-text {
+    font-size: 3rem;
+  }
+  .third-header {
+    height: 10rem;
+  }
+  .log-info-text {
+    line-height: 1.4;
+    margin-top: 1rem;
+    width: 16rem;
+  }
+  .log-grid {
+    height: 30rem;
+  }
+  .background-img {
+    height: 63%;
+    bottom: 8rem;
+  }
+  .troubleshoot-header {
+    padding-top: 3rem;
+    justify-content: start;
+  }
+  .troubleshoot-number {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+  .troubleshoot-secondary {
+    margin-bottom: 4rem;
+  }
+  .troubleshoot-heading-text {
+    width: 80%;
+  }
+  .troubleshoot-header {
+    height: auto;
+  }
 }
