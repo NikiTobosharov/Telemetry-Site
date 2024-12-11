@@ -813,10 +813,4 @@
   .pricing-box-flex {
     margin-inline: auto;
   }
-  .main-nav {
-    justify-content: space-evenly;
-  }
-  .main-nav-nav {
-    justify-content: space-evenly;
-  }
 }
