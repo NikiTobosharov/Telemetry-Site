@@ -802,6 +802,7 @@
   }
   .footer-right-col {
     margin-left: 4rem;
+    margin-right: 4rem;
   }
   .forth-col {
     order: 5;
@@ -811,5 +812,11 @@
   }
   .pricing-box-flex {
     margin-inline: auto;
+  }
+  .main-nav {
+    justify-content: space-evenly;
+  }
+  .main-nav-nav {
+    justify-content: space-evenly;
   }
 }
