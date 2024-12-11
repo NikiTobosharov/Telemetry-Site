@@ -813,4 +813,8 @@
   .pricing-box-flex {
     margin-inline: auto;
   }
+  .main-nav {
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
 }
