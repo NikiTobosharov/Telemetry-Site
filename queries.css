@@ -267,7 +267,7 @@
 
 @media (max-width: 50em) {
   .subheading {
-    margin-top: 4rem;
+    margin-top: 10rem;
   }
   .heading-primary {
     padding: 0 6rem;
@@ -367,6 +367,9 @@
 }
 
 @media (max-width: 45em) {
+  .container {
+    padding-left: 0;
+  }
   .footer-grid {
     grid-template-columns: 1fr !important;
     gap: 4rem;
@@ -402,6 +405,7 @@
   }
   .right-pricing-container {
     margin-bottom: 2rem;
+    padding-left: 5rem;
   }
   .container-flex {
     max-width: 80%;
@@ -750,5 +754,59 @@
   }
   .intro-footer-img {
     width: 97%;
+  }
+}
+
+@media (max-width: 25em) {
+  .subheading {
+    margin-top: 5rem;
+  }
+  .input {
+    width: 150px;
+  }
+  .submit {
+    width: 128px;
+  }
+  .log-text {
+    line-height: 1.8rem;
+  }
+  .log-img {
+    top: -33px;
+    right: -11rem;
+    width: 550%;
+  }
+  .log-text-col {
+    justify-content: center;
+  }
+  .img-box-grid {
+    margin-top: 2rem;
+  }
+  .troubleshoot-header {
+    margin-bottom: 4rem;
+  }
+  .resolve-flex {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+  .flex-text-container {
+    padding: 0;
+  }
+  .flex-heading {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  .footer-left-col {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 4rem;
+    row-gap: 5rem;
+  }
+  .footer-right-col {
+    margin-left: 4rem;
+  }
+  .forth-col {
+    order: 5;
+  }
+  .nav {
+    padding-left: 2rem;
   }
 }

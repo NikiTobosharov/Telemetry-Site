@@ -692,6 +692,7 @@
 .example-info {
   color: #fff;
   font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 .rounded-full {
