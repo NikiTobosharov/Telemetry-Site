@@ -809,4 +809,7 @@
   .nav {
     padding-left: 2rem;
   }
+  .pricing-container {
+    justify-items: center;
+  }
 }
