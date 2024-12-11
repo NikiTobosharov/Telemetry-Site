@@ -816,6 +816,6 @@
   .main-nav {
     flex-grow: 1;
     justify-content: space-evenly;
-    margin: 4rem 0 4rem 0;
+    margin: 6rem 0 6rem 0;
   }
 }
