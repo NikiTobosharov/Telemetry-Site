@@ -572,4 +572,134 @@
   .troubleshoot-header {
     height: auto;
   }
+  .fix-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .img-box {
+    width: 70%;
+  }
+  .heading-secondary {
+    font-size: 3.4rem;
+    line-height: 1.4;
+  }
+  .heading-final {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+  }
+  .img-box-text {
+    font-size: 1.2rem;
+  }
+  .explore-flex {
+    margin-top: 2rem;
+  }
+  .box-text-final {
+    padding: 1rem;
+  }
+  .resolve-number {
+    margin-bottom: 0.4rem;
+  }
+  .third-media {
+    margin-top: 5rem;
+  }
+  .third-heading {
+    font-size: 3.2rem;
+  }
+  .flex-heading {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+  .flex-text {
+    font-size: 1.4rem;
+  }
+  .flex-text-container {
+    padding: 0 2rem 0 0;
+  }
+  .pricing-box-flex {
+    width: 85%;
+  }
+  .footer-left-col {
+    row-gap: 3rem;
+  }
+  .first-col,
+  .second-col,
+  .third-col,
+  .forth-col,
+  .fifth-col,
+  .sixth-col,
+  .seventh-col {
+    row-gap: 1.2rem;
+  }
+}
+
+@media (max-width: 38em) {
+  .log-text {
+    padding-right: 15rem;
+  }
+  .log-img {
+    right: -16rem;
+  }
+  .log-text-col {
+    margin-right: 2rem;
+  }
+  .log {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 38em) {
+  .third-header {
+    height: 13rem;
+  }
+  .log-img {
+    top: revert-layer;
+  }
+  .heading-primary {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 26.4em) {
+  .subheading {
+    letter-spacing: 0.14em;
+    font-size: 1.2rem;
+  }
+  .heading-primary {
+    padding: 0 4rem;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+  }
+  .input {
+    width: 170px;
+    height: 28px;
+  }
+  .submit {
+    width: 118px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .intro-text {
+    margin: 0 2rem;
+  }
+  .fix-text {
+    padding-right: 10rem;
+    font-size: 1.3rem;
+  }
+  .log-img-col {
+    height: 25rem;
+  }
+  .log-img {
+    right: -11rem;
+  }
+  .log {
+    padding: 0 2rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
 }
