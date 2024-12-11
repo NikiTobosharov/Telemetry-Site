@@ -810,6 +810,6 @@
     padding-left: 2rem;
   }
   .pricing-box-flex {
-    justify-self: center;
+    margin-inline: auto;
   }
 }
