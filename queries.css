@@ -531,6 +531,12 @@
   }
 }
 
+@media (max-width: 40em) {
+  .log-img-col {
+    height: 40rem;
+  }
+}
+
 @media (max-width: 38em) {
   .nav {
     padding-left: 2rem;
@@ -857,8 +863,8 @@
     line-height: 1.8rem;
   }
   .log-img {
-    top: -33px;
-    right: -11rem;
+    top: -60px;
+    right: -15rem;
     width: 550%;
   }
   .log-text-col {
@@ -919,11 +925,25 @@
   .better-stack-text-img {
     font-size: 1.2rem;
   }
+  .log-grid {
+    margin-top: 2rem;
+  }
+  .log-img {
+    top: -27px;
+  }
+}
+@media (max-width: 21.25em) {
+  .log-img {
+    right: -13rem;
+  }
 }
 
 @media (max-width: 20.63em) {
   .log-text-col {
     margin-right: 0rem;
+  }
+  .log-img {
+    right: -12rem;
   }
 }
 
@@ -940,5 +960,32 @@
   }
   .sign-nav {
     margin-right: 0;
+  }
+  .log-info-text {
+    font-size: 1.2rem;
+  }
+  .log-text-col {
+    justify-content: start;
+  }
+  .log-grid {
+    height: 24rem;
+  }
+  .resolve-heading {
+    font-size: 2.8rem !important;
+  }
+  .resolve-text {
+    font-size: 1.3rem !important;
+    line-height: 1.6;
+  }
+  .pricing-text {
+    line-height: 1.3;
+    font-size: 1.3rem;
+  }
+  .heading-primary {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+  .fix-text {
+    padding-right: 10rem;
   }
 }
