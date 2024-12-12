@@ -148,7 +148,7 @@
 
   .resolve-heading {
     text-align: center;
-    font-size: 5rem;
+    font-size: 5rem !important;
   }
   .third-heading {
     font-size: 4.2rem;
