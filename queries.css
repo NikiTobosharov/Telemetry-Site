@@ -614,6 +614,7 @@
   .background-img {
     height: 63%;
     bottom: 8rem;
+    left: -4rem;
   }
   .troubleshoot-header {
     padding-top: 3rem;
@@ -738,6 +739,10 @@
 }
 
 @media (max-width: 26.4em) {
+  .background-img {
+    width: 115%;
+    left: -2rem;
+  }
   .nav {
     padding-left: 2rem;
   }
