@@ -30,6 +30,7 @@
   list-style: none;
   flex-grow: 1;
   justify-content: space-evenly;
+  gap: 3rem;
 }
 
 .left-nav {
@@ -369,7 +370,7 @@
   flex-direction: column;
   padding-top: 6.4rem;
   gap: 2rem 0;
-  margin-bottom: 11rem;
+  margin-bottom: 32rem;
   position: relative;
   z-index: 1;
   height: 50rem;
@@ -380,10 +381,10 @@
 .background-img {
   position: absolute;
   z-index: -1;
-  width: 125%;
-  bottom: -11rem;
-  left: -15rem;
-  height: 122%;
+  width: 168%;
+  bottom: -22rem;
+  left: -40rem;
+  height: 131%;
 }
 
 .troubleshoot-number,
@@ -495,6 +496,11 @@
   padding: 9.6rem 0 9.6rem 0;
 }
 
+.resolve-heading {
+  text-align: center;
+  font-size: 6rem !important;
+}
+
 .resolve,
 .resolve-number,
 .resolve-heading,
@@ -532,7 +538,7 @@
 
 .third-heading {
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 5.2rem;
   line-height: 1.2;
   color: #fff;
 }

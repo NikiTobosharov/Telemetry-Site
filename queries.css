@@ -1,3 +1,23 @@
+@media (max-width: 88.2em) {
+  .background-img {
+    width: 145%;
+    height: 122%;
+    bottom: -18rem;
+    left: -27rem;
+  }
+}
+@media (max-width: 76.9em) {
+  .background-img {
+    width: 122%;
+    height: 89%;
+    bottom: 3rem;
+    left: -10rem;
+  }
+  .troubleshoot-header {
+    margin-bottom: 8rem;
+  }
+}
+
 @media (max-width: 73.25em) {
   .resolve-heading {
     font-size: 5rem;
@@ -63,12 +83,18 @@
   }
 }
 
+@media (max-width: 65em) {
+  .third-heading {
+    font-size: 4.2rem;
+  }
+}
+
 @media (max-width: 63em) {
   .left-nav {
     gap: 2.4rem;
   }
   .main-nav {
-    gap: 0.4rem;
+    gap: 2rem;
   }
   .contact-phone-email {
     display: none;
@@ -164,6 +190,18 @@
   .pricing-box-flex {
     justify-self: center;
     width: 80rem;
+  }
+  .resolve-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .box-text-final {
+    padding: 4rem 2rem;
+  }
+  .explore-flex {
+    margin-top: 1rem;
   }
 }
 
@@ -364,9 +402,23 @@
   .troubleshoot-heading-text {
     padding-right: 0 !important;
   }
+  .resolve-absolite-image {
+    position: absolute;
+    right: 4.5rem;
+    top: 6.2rem;
+    border-radius: 11px;
+    width: 16rem;
+    height: 14rem;
+  }
 }
 
 @media (max-width: 45em) {
+  .footer-grid {
+    padding-left: 2rem;
+  }
+  .resolve-text {
+    font-size: 1.8rem !important;
+  }
   .nav {
     padding-left: 2rem;
   }
@@ -640,9 +692,18 @@
   .seventh-col {
     row-gap: 1.2rem;
   }
+  .resolve-text {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 32.2em) {
+  .resolve-heading {
+    font-size: 3.8rem !important;
+  }
+  .resolve-text {
+    font-size: 1.4rem;
+  }
   .nav {
     padding-left: 2rem;
   }
@@ -731,6 +792,11 @@
   .log-img {
     right: -15rem;
     width: 327%;
+  }
+
+  .log-grid {
+    margin-top: 5rem;
+    height: 30rem;
   }
   .log-trird-header-text {
     font-size: 2.4rem;
@@ -847,6 +913,12 @@
   }
   .better-stack-text-img {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 20.63em) {
+  .log-text-col {
+    margin-right: 0rem;
   }
 }
 
