@@ -68,7 +68,7 @@
     gap: 2.4rem;
   }
   .main-nav {
-    gap: 2rem;
+    gap: 0.4rem;
   }
   .contact-phone-email {
     display: none;
@@ -171,12 +171,6 @@
   .main-nav {
     gap: 3.4rem;
   }
-  .nav-link {
-    font-size: 1.3rem;
-  }
-  .nav-btn {
-    font-size: 1.3rem;
-  }
   .img-box-grid {
     gap: 1.8rem;
   }
@@ -221,13 +215,13 @@
 
   .main-nav-nav {
     flex-grow: 1;
-    padding: 0 3.4rem;
+    padding: 4rem 3.4rem;
     background-color: rgb(19, 21, 34);
     top: 52px;
     left: 0;
     position: absolute;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -237,6 +231,8 @@
     pointer-events: none;
     visibility: hidden;
     transform: translateY(100%);
+    overflow-y: auto;
+    flex-wrap: wrap;
   }
 
   .nav-btn {
@@ -812,10 +808,5 @@
   }
   .pricing-box-flex {
     margin-inline: auto;
-  }
-  .main-nav {
-    flex-grow: 1;
-    justify-content: space-evenly;
-    margin: 6rem 0 6rem 0;
   }
 }
