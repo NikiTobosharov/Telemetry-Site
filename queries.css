@@ -850,6 +850,20 @@
 }
 
 @media (max-width: 25em) {
+  .resolve-text {
+    font-size: 1.4rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  .heading-final {
+    font-size: 1.3rem;
+  }
+  .explore-flex {
+    font-size: 1.4rem;
+  }
+  .fix-text {
+    padding-right: 9rem;
+  }
   .subheading {
     margin-top: 5rem;
   }
