@@ -262,6 +262,9 @@
 }
 
 @media (max-width: 50em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .subheading {
     margin-top: 10rem;
   }
@@ -363,6 +366,9 @@
 }
 
 @media (max-width: 45em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .container {
     padding-left: 0;
   }
@@ -473,6 +479,9 @@
 }
 
 @media (max-width: 38em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .subheading {
     font-size: 1.4rem;
   }
@@ -633,6 +642,9 @@
 }
 
 @media (max-width: 32.2em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .log-text {
     padding-right: 15rem;
   }
@@ -648,6 +660,9 @@
 }
 
 @media (max-width: 30em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .third-header {
     height: 13rem;
   }
@@ -661,6 +676,9 @@
 }
 
 @media (max-width: 26.4em) {
+  .nav {
+    padding-left: 2rem;
+  }
   .subheading {
     letter-spacing: 0.14em;
     font-size: 1.2rem;
@@ -808,5 +826,41 @@
   }
   .pricing-box-flex {
     margin-inline: auto;
+  }
+  .better-stack-price {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 23em) {
+  .third-heading {
+    font-size: 2.6rem;
+    line-height: 1.4;
+  }
+  .heading-secondary {
+    font-size: 2.6rem;
+    line-height: 1.4;
+  }
+  .offer {
+    font-size: 1rem;
+  }
+  .better-stack-text-img {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 19em) {
+  .better-stack-flex-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .right-part-header {
+    line-height: 1.4;
+  }
+  .third-heading {
+    font-size: 2.2rem;
+  }
+  .sign-nav {
+    margin-right: 0;
   }
 }
