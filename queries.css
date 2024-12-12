@@ -413,6 +413,9 @@
 }
 
 @media (max-width: 45em) {
+  .nav {
+    padding-left: 2rem !important;
+  }
   .footer-grid {
     padding-left: 2rem;
   }
