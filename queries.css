@@ -215,7 +215,7 @@
 
   .main-nav-nav {
     flex-grow: 1;
-    padding: 4rem 3.4rem;
+    padding: 2rem 3.4rem 4rem 3.4rem;
     background-color: rgb(19, 21, 34);
     top: 52px;
     left: 0;
