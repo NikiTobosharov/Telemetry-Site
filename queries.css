@@ -66,9 +66,6 @@
   .log-heading {
     font-size: 5.8rem;
   }
-  .intro-section {
-    padding-top: 14rem;
-  }
 
   .log-section,
   .troubleshoot-section,
@@ -304,9 +301,7 @@
   .nav {
     padding-left: 2rem;
   }
-  .subheading {
-    margin-top: 10rem;
-  }
+
   .heading-primary {
     padding: 0 6rem;
   }
